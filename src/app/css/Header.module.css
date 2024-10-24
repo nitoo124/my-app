@@ -1,0 +1,127 @@
+.header{
+    position: sticky;
+    top: 0;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 4;
+    background-color: white;
+}
+
+.logo{
+    margin-left: 3rem;
+}
+
+.logo h2{
+    font-weight: 700;
+    font-size: 1.875rem ;
+    line-height: 2.25rem 
+
+}
+
+.logo h2 span{
+    color: #7e22ce ;
+
+}
+
+.nav{
+    font-size: 1.125rem ;
+    line-height: 1.75rem;
+    font-weight: 600;
+    margin-right: 3rem;
+  
+}
+
+.nav ul{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    
+   
+}
+
+.nav ul .links {
+    text-decoration: none;
+    
+}
+
+.nav ul .links li{
+    padding: 4px 8px;
+    border-radius: 8px;
+
+}
+
+.nav ul .links li:hover{
+    background-color: #7e22ce;
+    color: white;
+}
+
+.mobicons{
+    margin-right: 1.25rem ;
+    display: none;
+    
+}
+
+.mobNav{
+    display: none;
+}
+
+
+
+/* css for mob devices */
+@media only screen and (max-width: 600px) {
+   .nav{
+    display: none;
+   }
+   .mobNav{
+    display: block;
+    text-align: center;
+    width: 100%;
+    
+   
+   
+}
+
+.mobNav ul{
+    padding-top: 2.5rem ;
+    padding-bottom: 2.5rem;
+    flex-direction: column;
+    column-gap: 3rem;
+    background-color: #7e22ce;
+    font-size: 1.125rem;
+    line-height: 1.75rem ;
+    font-weight: 700;
+
+    
+   
+    
+}
+.mobNav ul .links{
+    text-decoration: none;
+    width: 100%;
+    ;
+} 
+.mobNav ul .links li{
+    color: white;
+    list-style: none;
+    margin-top: 1.5rem
+    
+}
+
+.mobNav ul .links li:hover{
+   color: gainsboro;
+    
+}
+
+.mobicons{
+    margin-right: 1.25rem ;
+    display: block;
+   background-color: white;
+   border: none;
+    
+}
+  }
+
+

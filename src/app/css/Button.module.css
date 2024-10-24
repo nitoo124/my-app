@@ -1,0 +1,15 @@
+.button{
+
+    font-weight: 600;
+    background-color: #7e22ce ;
+    padding: 0.5rem;
+    padding-left: 0.75rem ;
+    padding-right: 0.75rem;
+    color: white;
+}
+
+.mobicons{
+    margin-right: 1.25rem ;
+    display: none;
+    
+}
