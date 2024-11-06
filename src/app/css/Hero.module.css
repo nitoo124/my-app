@@ -1,0 +1,79 @@
+.hero{
+    max-width: 1224px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3.5rem;
+    padding-left: 3rem ;
+    padding-right: 3rem ;
+
+}
+
+.leftbar{
+    text-align: center;
+    padding: 1.25rem
+}
+
+.leftbar h1{
+    font-size: 1.875rem ;
+    line-height: 2.25rem;
+    font-weight: 700;
+}
+
+.leftbar h1 span{
+    color: #7e22ce ;
+}
+
+.leftbar p{
+    margin-top: 0.75rem
+
+}
+
+.leftbar div{
+    margin-top: 0.75rem
+}
+
+.rightbar{
+    margin-top: 2rem;
+    flex-basis: 50%; 
+    text-align: center;
+
+
+}
+
+.homeimg{
+    padding: 10px;
+    border-bottom-right-radius: 1.5rem
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .hero{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3.5rem;
+        max-width: 600px;
+    }
+
+    
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+
+    .hero{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3.5rem;
+        max-width: 600px;
+    }
+}

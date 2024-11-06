@@ -38,7 +38,7 @@ function Header() {
         </div>
 
         {/* mob navbar */}
-        <nav className={`${styles.mobNav}   ${OpenMenu ? 'block' : 'hidden'}`}>
+        <nav className={`${styles.mobNav} ${OpenMenu ? styles.showMwnu : ''} `}>
                 <ul className='   flex-col py-10   bg-purple-700 gap-x-12 text-white text-lg font-bold  '>
                     <Link className={styles.links} href='/'><li className='mt-6 hover:bg-white hover:text-purple-700 '>Home</li></Link>
                     <Link className={styles.links} href='/about'><li className='mt-6 hover:bg-white hover:text-purple-700 '>About</li></Link>

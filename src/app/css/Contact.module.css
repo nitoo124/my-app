@@ -1,0 +1,65 @@
+.contact{
+    max-width: 768px;
+    margin-top: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5rem;
+    background-color: #7e22ce ;
+    border-radius: 1.5rem;
+    color: white;
+}
+
+.contact h1{
+    font-size: 1.875rem;
+    line-height: 2.25re;
+    margin-top: 1.25rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.contact form{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+
+
+}
+
+ .contact form div label{
+    margin-top: 0.5rem;
+    font-weight: 600;
+    font-size: 0.875rem ;
+    line-height: 1.25rem;
+
+}
+
+.input{
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    color: black;
+
+}
+
+.btnContainer{
+    text-align: center;
+    margin-top: 1.25rem ;
+}
+
+.btn{
+    background-color: white;
+    padding-left: 1rem ;
+    padding-right: 1rem;
+    padding-top: 0.5rem ;
+    padding-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    color: #7e22ce;
+    font-weight: 600;
+
+}
+
+.btn:hover{
+    background-color: #e9d5ff ;
+}

@@ -1,12 +1,16 @@
 .header{
-    position: sticky;
-    top: 0;
+
+   position: sticky;
+   top: 0;
+ 
 }
 
 .main{
+
     display: flex;
     justify-content: space-between;
-    padding: 4;
+    padding-top: 1rem ;
+    padding-bottom: 1rem ;
     background-color: white;
 }
 
@@ -73,10 +77,13 @@
 /* css for mob devices */
 @media only screen and (max-width: 600px) {
    .nav{
+    position: fixed;
+    left: 0;
     display: none;
+    width: 100%;
    }
    .mobNav{
-    display: block;
+    display: none;
     text-align: center;
     width: 100%;
     
@@ -84,11 +91,12 @@
    
 }
 
+
 .mobNav ul{
     padding-top: 2.5rem ;
     padding-bottom: 2.5rem;
     flex-direction: column;
-    column-gap: 3rem;
+     
     background-color: #7e22ce;
     font-size: 1.125rem;
     line-height: 1.75rem ;
@@ -111,7 +119,8 @@
 }
 
 .mobNav ul .links li:hover{
-   color: gainsboro;
+   background-color: white;
+   color: #7e22ce;
     
 }
 
@@ -121,6 +130,16 @@
    background-color: white;
    border: none;
     
+}
+.showMwnu{
+    display: block;
+    position: fixed;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    
+   
+   
 }
   }
 
