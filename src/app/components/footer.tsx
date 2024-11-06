@@ -31,9 +31,9 @@ function Footer() {
                 <h3 >Links</h3>
 
                 <ul className='text-sm mt-3'>
-                    <Link href='/'><li className='mt-2 text-gray-200'>Home</li></Link>
-                    <Link href='/about'><li className='mt-2 text-gray-200'>About</li></Link>
-                    <Link href='/contact'><li className='mt-2 text-gray-200'>Contact</li></Link>
+                    <Link className = {styles.link} href='/'><li className='mt-2 text-gray-200'>Home</li></Link>
+                    <Link className = {styles.link} href='/about'><li className='mt-2 text-gray-200'>About</li></Link>
+                    <Link className = {styles.link} href='/contact'><li className='mt-2 text-gray-200'>Contact</li></Link>
                 </ul>
 
             </section>

@@ -50,13 +50,19 @@
     line-height: 1.25rem;
     margin-top: 0.75rem;
     color: #e5e7eb;
+    list-style: none;
 }
 
-.Section2 ul li{
+.Section2 ul .link{
     text-decoration: none;
+}
+
+
+.Section2 ul .link li{
+    
     margin-top: 0.5rem ;
     margin-bottom: 0.5rem;
-    list-style: none;
+    
     color: #e5e7eb;
 }
 
