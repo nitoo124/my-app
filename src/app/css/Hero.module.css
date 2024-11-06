@@ -36,7 +36,8 @@
 }
 
 .rightbar{
-    margin-top: 2rem;
+  
+    margin: 10px;
     flex-basis: 50%; 
     text-align: center;
 
@@ -44,7 +45,7 @@
 }
 
 .homeimg{
-    padding: 10px;
+    padding: 1rem;
     border-bottom-right-radius: 1.5rem
 
 }
