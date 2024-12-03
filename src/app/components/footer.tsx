@@ -15,10 +15,10 @@ function Footer() {
             <section className={styles.Section1}>
 
             <h2 >Nitoo.</h2>
-            <div className='flex gap-5 mt-5 text-2xl '>
-                <FaGithub className='hover:text-gray-300 hover:animate-bounce'/>
-                <FaLinkedin className='hover:text-gray-300 hover:animate-bounce'/>
-                <FaFacebook className='hover:text-gray-300 hover:animate-bounce'/>
+            <div>
+                <FaGithub/>
+                <FaLinkedin/>
+                <FaFacebook/>
             </div>
 
 
@@ -30,10 +30,10 @@ function Footer() {
 
                 <h3 >Links</h3>
 
-                <ul className='text-sm mt-3'>
-                    <Link className = {styles.link} href='/'><li className='mt-2 text-gray-200'>Home</li></Link>
-                    <Link className = {styles.link} href='/about'><li className='mt-2 text-gray-200'>About</li></Link>
-                    <Link className = {styles.link} href='/contact'><li className='mt-2 text-gray-200'>Contact</li></Link>
+                <ul>
+                    <Link className = {styles.link} href='/'><li>Home</li></Link>
+                    <Link className = {styles.link} href='/about'><li>About</li></Link>
+                    <Link className = {styles.link} href='/contact'><li >Contact</li></Link>
                 </ul>
 
             </section>
@@ -43,15 +43,15 @@ function Footer() {
                 <h3 >Have a Question?</h3>
                  
                  {/* email */}
-                <div className='mt-4 flex gap-3 text-gray-200 '>
+                <div>
                     <MdEmail size={25} className={styles.icons}/>
-                    <p className='text-sm'>example@gmail.com</p>
+                    <p>example@gmail.com</p>
                 </div>
                 
                 {/* phone */}
-                <div className='mt-4 flex gap-3 text-gray-200'>
+                <div>
                     <FaPhoneAlt size={23} className={styles.icons}/>
-                    <p className='text-sm'>0133456789</p>
+                    <p>0133456789</p>
 
                 </div>
                 
@@ -59,8 +59,8 @@ function Footer() {
             </section>
             </main>
 
-            <hr className='mt-5 w-full' />
-            <p className='text-center mt-5'>copyright © Designed by Nitoo Kumari</p>
+            <hr/>
+            <p>copyright © Designed by Nitoo Kumari</p>
 
             
 

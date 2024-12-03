@@ -39,10 +39,10 @@ function Header() {
 
         {/* mob navbar */}
         <nav className={`${styles.mobNav} ${OpenMenu ? styles.showMwnu : ''} `}>
-                <ul className='   flex-col py-10   bg-purple-700 gap-x-12 text-white text-lg font-bold  '>
-                    <Link className={styles.links} href='/'><li className='mt-6 hover:bg-white hover:text-purple-700 '>Home</li></Link>
-                    <Link className={styles.links} href='/about'><li className='mt-6 hover:bg-white hover:text-purple-700 '>About</li></Link>
-                    <Link className={styles.links} href='/contact'><li className='mt-6 hover:bg-white hover:text-purple-700 '>Contact</li></Link>
+                <ul>
+                    <Link className={styles.links} href='/'><li>Home</li></Link>
+                    <Link className={styles.links} href='/about'><li>About</li></Link>
+                    <Link className={styles.links} href='/contact'><li>Contact</li></Link>
                 </ul>
               </nav>
     </header>

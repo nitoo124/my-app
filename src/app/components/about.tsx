@@ -18,15 +18,15 @@ function About() {
 
             {/*Content section  */}
             <section className={styles.contentSection}>
-                <h1 className='text-3xl font-bold text-purple-700'>About Me</h1>
-                <p className='mt-5'>Hi! I’m Nitoo kumari, a Frontend Developer specializing in Next.js, Framer Motion, Tailwind CSS, React, CSS, HTML, JavaScript, and TypeScript. I’m passionate about creating user-friendly and visually appealing web applications.
+                <h1 >About Me</h1>
+                <p >Hi! I’m Nitoo kumari, a Frontend Developer specializing in Next.js, Framer Motion, Tailwind CSS, React, CSS, HTML, JavaScript, and TypeScript. I’m passionate about creating user-friendly and visually appealing web applications.
 
                     With experience in various exciting projects, I strive to deliver innovative solutions that enhance user experience. I love learning new technologies and staying updated with industry trends.
 
                     If you’re interested in collaborating on a project, feel free to reach out!
 
                     Let’s create something amazing together!</p>
-                <div className='mt-5'>
+                <div>
                     <Button text='Hire Me' />
                 </div>
             </section>

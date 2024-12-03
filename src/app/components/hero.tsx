@@ -11,9 +11,9 @@ function Hero() {
    <main className = {styles.hero}>
     {/* content section */}
     <section className= {styles.leftbar}>
-        <h1 className='text-3xl font-bold'>HI, I am <span className=' text-purple-700'>Nitoo kumari</span>, <br/> Frontend Developer.</h1>
-        <p className='mt-3'>Welcome to my portfolio! I'm a frontend developer dedicated to crafting engaging and user-friendly web experiences.</p>
-        <div className='mt-3'>
+        <h1 >HI, I am <span >Nitoo kumari</span>, <br/> Frontend Developer.</h1>
+        <p >Welcome to my portfolio! I'm a frontend developer dedicated to crafting engaging and user-friendly web experiences.</p>
+        <div>
         <Button  text = 'Learn More'/>
         </div>
 
